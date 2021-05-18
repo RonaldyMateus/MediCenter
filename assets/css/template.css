@@ -373,7 +373,15 @@ footer .container{
 }
 
 @media (max-width: 600px){
+    #banner{
+        height: auto;
+    }
     .banner_headline{
+        padding-left: 20px;
+        padding-top: 100px;
+        margin-bottom: 100px;
+    }
+    .widget{
         padding-left: 20px;
     }
     .banner_headline h1{
@@ -396,7 +404,7 @@ footer .container{
     }
     .credits{
         flex-direction: column;
-    }
+    } 
     .credits_div{
         padding-left: 20px;
     }
