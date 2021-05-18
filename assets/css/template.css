@@ -400,6 +400,7 @@ footer .container{
     }
     #banner{
         height: auto;
+        background-size: 1665px 961px;
     }
     .banner_headline{
         padding-left: 20px;
@@ -411,9 +412,11 @@ footer .container{
     }
     .banner_headline h1{
         font-size: 55px;
+        text-shadow: 3px 1px 3px #444555;
     }
     .banner_headline h2{
         font-size: 17px;
+        text-shadow: 1px 1px 2px #444555;
     }
     .banner_options{
         flex-direction: column;
@@ -437,3 +440,4 @@ footer .container{
         padding-left: 20px;
     }
 }
+
