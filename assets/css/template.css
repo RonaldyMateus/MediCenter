@@ -401,7 +401,8 @@ footer .container{
     }
     #banner{
         height: auto;
-        background-size: 1665px 1000px;
+        background-size: 1026px 505px;
+    background-position: top;
     }
     .banner_headline{
         padding-left: 20px;
