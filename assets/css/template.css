@@ -209,6 +209,24 @@ article .news_resume{
     margin-right: 20px;
     margin-bottom: 20px;
     background-color: #39aae1;
+    text-align: center;
+}
+.departament i{
+    font-size: 50px;
+    color: rgb(245, 245, 245);
+    padding-top: 20px;
+}
+.departament h4{
+    font-size: 13px;
+    color:rgb(245, 245, 245) ;
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.departament i:hover{
+    color: rgb(196, 238, 255);
+    cursor: pointer;
 }
 #make{
     margin-top: 8px;
