@@ -22,6 +22,7 @@ header{
 .logo{
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 .menu{
     display: flex;
@@ -393,7 +394,7 @@ footer .container{
     display: none;
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
     
     header .container{
         flex-direction: row; 
