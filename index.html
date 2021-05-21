@@ -10,8 +10,23 @@
             document.querySelector(".mb_menu").addEventListener("click", function() {
                 if(document.querySelector(".menu nav ul").style.display == 'flex'){
                     document.querySelector(".menu nav ul").style.display = 'none';
+                    document.querySelector(".mb_menu_close").style.display = 'none';
+                    document.querySelector(".mb_menu").style.display = 'flex';
                 } else {
                     document.querySelector(".menu nav ul").style.display = 'flex';
+                    document.querySelector(".mb_menu_close").style.display = 'flex';
+                    document.querySelector(".mb_menu").style.display = 'none';
+                    
+                }
+         });document.querySelector(".mb_menu_close").addEventListener("click", function() {
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                    document.querySelector(".mb_menu_close").style.display = 'none';
+                    document.querySelector(".mb_menu").style.display = 'flex';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                    document.querySelector(".mb_menu_close").style.display = 'flex';
+                    document.querySelector(".mb_menu").style.display = 'none';
                 }
          });
         };
@@ -33,6 +48,10 @@
                         <div class="mb_menu_item"></div>
                         <div class="mb_menu_item"></div>
                         <div class="mb_menu_item"></div>
+                    </div>
+                    <div class="mb_menu_close">
+                        <div class="mb_menu_item mb_close1"></div>
+                        <div class="mb_menu_item mb_close2"></div>
                     </div>
                     <ul>
                         <li class="active"><a href="">HOME</a></li>
