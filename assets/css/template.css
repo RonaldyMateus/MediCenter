@@ -422,6 +422,12 @@ footer .container{
     }
     nav ul{
         flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 16%;
+        width: 100%;
+        background-color: #fff;
     }
     #banner{
         height: auto;
