@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,user-scalable=0">
     <link rel="stylesheet" type="text/css" href="assets/css/template.css">  
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".mb_menu").addEventListener("click", function() {
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+         });
+        };
+    </script>
     <title>MediCenter</title>
 </head>
 <body>
@@ -14,13 +25,15 @@
             <div class="logo">
                <a href=""><img src="assets/images/logo.png" alt="Logomarca"></a>
             </div>
-            <div class="mb_menu">
-                <div class="mb_menu_item"></div>
-                <div class="mb_menu_item"></div>
-                <div class="mb_menu_item"></div>
-            </div>
+            
             <div class="menu">
+                   
                 <nav class="">
+                   <div class="mb_menu">
+                        <div class="mb_menu_item"></div>
+                        <div class="mb_menu_item"></div>
+                        <div class="mb_menu_item"></div>
+                    </div>
                     <ul>
                         <li class="active"><a href="">HOME</a></li>
                         <li><a href="">NEWS</a></li>
