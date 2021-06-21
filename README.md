@@ -1,2 +1,3 @@
 # MediCenter
- Site estático de um centro médico (xercício prático)
+ Site estático de um centro médico.
+Aplicando flexbox.
